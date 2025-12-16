@@ -1,0 +1,40 @@
+/* Het kaartje waar alles in staat */
+.quote-container {
+    background-color: #2a2a2a; /* Iets lichter dan de achtergrond */
+    border: 1px solid #444;
+    border-radius: 15px;
+    padding: 30px;
+    margin-top: 30px;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.5); /* Schaduw voor diepte */
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* De tekst van de quote */
+#quote-display {
+    font-size: 1.2em;
+    font-style: italic;
+    color: #ddd;
+    margin-bottom: 20px;
+    min-height: 50px; /* Voorkomt dat het verspringt */
+}
+
+/* De Actieknop! */
+#generate-btn {
+    background-color: #4CAF50; /* Mooi groen */
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    font-size: 16px;
+    border-radius: 25px; /* Ronde hoeken */
+    cursor: pointer;
+    transition: transform 0.2s, background-color 0.2s;
+}
+
+/* Hover effect: Als je muis erop zweeft */
+#generate-btn:hover {
+    background-color: #45a049;
+    transform: scale(1.05); /* Wordt ietsje groter */
+}
